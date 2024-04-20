@@ -7,6 +7,7 @@ const createToken = (_id) => {
 };
 
 // login user
+//signin user
 const loginUser = async (req, res) => {
   const { email, password } = req.body;
 
